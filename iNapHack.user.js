@@ -12,7 +12,8 @@
     'use strict';
 
     const page = (window.location.href.match(/module=[^&]*/) || [''])[0].replace('module=','')
-
+    console.log(`Page: ${page}`);
+    
     window.CountBack = x => {};
 
     switch (page) {
