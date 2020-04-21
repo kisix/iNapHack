@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         iNapHack
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  iN@pló feljavittó
 // @author       You
 // @match        http://160.114.82.156/t1920/menu.php*
