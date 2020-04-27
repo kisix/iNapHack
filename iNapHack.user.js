@@ -19,13 +19,7 @@
     switch (page) {
         case 'elomenet': {
             document.querySelectorAll('div#main')[0].removeChild(document.querySelectorAll('#main > form')[0]);
-            document.querySelectorAll("#main > table:nth-child(2) > tbody .bxuz div.button").forEach(e => {
-                e.style.fontSize = '12px';
-                e.style.padding = '4px';
-                e.style.margin = 0;
-                e.style.lineHeight = '12px';
-            });
-            document.querySelectorAll("#main > table:nth-child(2) > tbody .bxuz").forEach(e => {
+            document.querySelectorAll(".bxuz, .bxuz div.button").forEach(e => {
                 e.style.fontSize = '12px';
                 e.style.padding = '4px';
                 e.style.margin = 0;
